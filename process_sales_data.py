@@ -128,6 +128,7 @@ def process_sales_data(sales_csv_path, orders_dir_path):
         
         # Close the Pandas Excel writer and output the Excel file.
         writer.close()
+        return
 
 if __name__ == '__main__':
     main()
